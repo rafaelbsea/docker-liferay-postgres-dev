@@ -1,0 +1,10 @@
+sdk/liferay-plugins-sdk-6.2/.ivy/*
+sdk/liferay-plugins-sdk-6.2/.settings/*
+sdk/liferay-plugins-sdk-6.2/dist/*
+sdk/liferay-plugins-sdk-6.2/portlets/*/*
+sdk/liferay-plugins-sdk-6.2/hooks/*/*
+sdk/liferay-plugins-sdk-6.2/ext/*/*
+sdk/liferay-plugins-sdk-6.2/layouttpl/*/*
+sdk/liferay-plugins-sdk-6.2/themes/*/*
+
+postgres/volumes/*
