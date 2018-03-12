@@ -42,3 +42,18 @@ E-mail: test@liferay.com
 Senha: test
 
 ```
+
+## Estrutura
+    .
+    ├── lib
+    │   ├── liferay-portal-lite-libs          # Bibliotecas liferay
+    ├── postgres
+    │   ├── resources                         # Arquivos de configuração liferay
+    │   ├── volumes                           # Mapeamento do container pro host
+    │   │   ├── liferaydata                   # Data do liferay
+    │   │   ├── logs                          # Logs do liferay
+    │   │   └── postgresdata                  # Data postgres (Backup)
+    │   └──
+    ├── sdk
+    │   └── liferay-plugin-sdk-6.2            # Liferay plugin SDK
+    └── tmp/deploy                            # Deploy liferay
